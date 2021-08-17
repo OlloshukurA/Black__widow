@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url(./Img/Black__hreo.png);
+     background-color: #ccc;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.europe {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 300px;
+}
+
+.euro {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.1);
+    width: 750px !important;
+    height: 537px !important;
+    padding-top: 96px;
+    padding-left: 64px;
+}
+
+.euro h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.euro p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;  
+    opacity: 0.6;
+    padding: 29px 0;
+}
+
+.explore {
+    background: #F78065;
+    width: 250px;
+    height: 65px;
+    padding: 21px 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.explore img {
+        padding-right: 8px;
+}
+
+.explore:hover {
+        background-color: black;
+        opacity: 0.6;
+        transition: 0.5s ease;
+}
+
+.triple {
+    padding-top: 400px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.t__bold {
+        padding-top: 80px;
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 22px;
+        color: #000000;
+        padding-bottom: 30px;
+}
+
+.t__unvisible {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+
+.t__colored {
+    color: #F78065;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 1.2;
+}
+
+
+.make {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__i {
+    margin-top: 70px;
+}
+
+.first__i img {
+    width: 26px;
+    height: 20px;
+    padding-bottom: 50px;
+}
+
+.first__i h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.first__i p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 16px;
+    width: 275px;
+    height: 72px;
+}
+
+.first__i a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #F78065;
+    width: 143px;
+    height: 22px;
+}
+
+.managers {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+}
+
+.man__commnet h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+    padding-bottom: 32px;
+}
+
+.man__commnet p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.5;
+    padding-bottom: 50px;
+}
+
+.man__commnet a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 125%;
+    color: #FFFFFF;
+    width: 250px;
+    height: 65px;
+    padding: 21px 80px;
+    background: #F78065;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.man__commnet a:hover {
+    color: #fff;
+    background-color: black;
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
+.man__img img {
+    margin-bottom: 34px;
+}
+
+.man__img h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; 
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.man__img p {
+margin-bottom: 11px;    
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #3F3D56;
+}
+
+.man__img a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F78065;
+    
+}
+
+.adv {
+    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.adv h1{
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.adv__list-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adv__list-menu img {
+    width: 32px;
+    height: 32px;
+    margin: 50px 0;
+}
+
+.adv__list-menu h1 {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+    margin: 30px 50px 0 0;
+    margin-bottom: 30px;
+    height: 58px;
+}
+
+.adv__list-menu p {
+    width: 386px;
+    height: 96px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.5;
+    margin-bottom: 200px;
+}
+
+footer {
+    width: 100%;
+    height: 575px;
+    background: #F7F7F7;
+}
+
+.f__content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 96px;
+    padding-bottom: 85px;
+}
+
+.left__f p {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    padding-bottom: 16px;
+}
+
+.left__f h1 {
+    width: 304px;
+    height: 240px;
+}
+
+
+.right__f .bold__f {       
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.right__f ul li a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.right__f li {
+        margin: 18px 0;
+}
+
+.line {
+    width: 90%;
+    margin:  0 auto;
+    color: #000000;
+    opacity: 0.2;
+    box-shadow: 5px 10px 15px #F7F7F7;
+    margin-bottom: 28px;
+}
+
+.bottom {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r__bot ul {
+    display: flex;
+}
+
+.r__bot li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 0 20px;
+}
+
+.l__bot p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
